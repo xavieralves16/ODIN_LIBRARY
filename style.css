@@ -1,1 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
 
+#libraryDisplay {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.bookCard {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  background: #fafafa;
+}
